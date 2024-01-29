@@ -1,0 +1,931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="sr-Latn-RS" original="ApplyPayments.g.xlf" tool-id="DTS" product-name="n/a" product-version="n/a" build-num="n/a" request-id="70683">
+    <header>
+      <tool tool-id="DTS" tool-name="DTS" tool-version="1.0.175.78" tool-company="Microsoft Corporation" />
+    </header>
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3503101848 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Related-Party Name Mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapiranje naziva povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 61426844 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Br. računa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 170232457 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Account type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tip računa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Account type_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 1547790770 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Bank account No.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Br. bankovnog računa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Bank account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 30571519 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Related-Party Name</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Naziv povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Related-Party Name_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 1282992999" translate="yes" xml:space="preserve">
+          <source>This notification is used when the Payment Application page is opening slowly. It can be used to turn off automatic suggestions, which will help the page open more quickly.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ovo obaveštenje se koristi kada se stranica aplikacije za plaćanje sporo otvara. Može da se koristi za isključivanje automatskih predloga koji će pomoći da se stranica brže otvori.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DisableAutomaticSuggestionsNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 3450555774" translate="yes" xml:space="preserve">
+          <source>Sorting the list based on the match probability is causing this page to open slowly. For faster performance, you can turn off autosuggestions, and then use the Suggest Entries action on the Payment Application page instead.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortiranje liste zasnovane na verovatnoći podudaranja dovodi do toga da se ova stranica polako otvori. Za brže performanse možete da isključite autosutive, a zatim umesto toga koristite radnju "Predlaganje stavki" na stranici aplikacije za plaćanje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DisableAutomaticSuggestionsNotificationMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 2689165936" translate="yes" xml:space="preserve">
+          <source>Payment Reconciliation - Disable Automatic Suggestions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nalozi sravnjenja plaćanja - onemogućavanje automatskih predloga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DisableAutomaticSuggestionsNotificationNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 322882978" translate="yes" xml:space="preserve">
+          <source>Turn Off Automatic Suggestions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Isključi automatske predloge</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DisableAutomaticSuggestionsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 450345902" translate="yes" xml:space="preserve">
+          <source>Do not show again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ne prikazuj ponovo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DontShowAgainTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 808524847" translate="yes" xml:space="preserve">
+          <source>Document No. %1 was not applied because the transaction amount was insufficient.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Br. dokumenta %1 nije primenjen jer je iznos transakcije nedovoljan.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType CannotApplyDocumentNoOneToManyApplicationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1992121385" translate="yes" xml:space="preserve">
+          <source>The application of statement lines to open ledger entries is in progress. Please wait while the operation is being completed.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aplikacija redova izvoda za otvaranje stavki knjige je u toku. Sačekajte da se operacija završi.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType CreatingAppliedEntriesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1748643167" translate="yes" xml:space="preserve">
+          <source>We matched the document number by using the payment reference.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podudarali smo se sa brojem dokumenta koristeći referencu na plaćanje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType DocumentNumberMatchedByPaymentReferenceMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 2872086875" translate="yes" xml:space="preserve">
+          <source>We found a match for the document number in the transaction text.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pronašli smo podudaranje za broj dokumenta u tekstu transakcije.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType DocumentNumberMatchedInTransactionTextMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 2764556336" translate="yes" xml:space="preserve">
+          <source>We found a match for the external document number in the transaction text.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pronašli smo podudaranje za broj spoljnog dokumenta u tekstu transakcije.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType ExternalDocumentNumberMatchedInTransactionTextMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 243244968" translate="yes" xml:space="preserve">
+          <source>The value in the Transaction Amount field has been reduced by %1. A new line with %1 in the Transaction Amount field has been created.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vrijednost u polju Iznos transakcije je smanjena za %1. Novi red sa %1 u polju Iznos transakcije je kreiran.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - Difference</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType LineSplitTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1981476440" translate="yes" xml:space="preserve">
+          <source>The related party was matched based on the bank account in the statement file.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Povezana strana se podudara na osnovu bankovnog računa u datoteci izraza.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MatchedRelatedPartyOnBankAccountMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 4141172178" translate="yes" xml:space="preserve">
+          <source>The related party was matched based on the %1 in the statement file.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Srodni strana se podudarao na osnovu datoteke %1 u datoteci izraza.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of the fields used, e.g. Address, Name...</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MatchedRelatedPartyOnBankStatementInfoMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 745765755" translate="yes" xml:space="preserve">
+          <source>The matching of statement lines to open ledger entries is in progress.\\Please wait while the operation is being completed.\\#1####### @2@@@@@@@@@@@@@</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podudaranje redova izraza za otvaranje stavki knjige je u toku.\\Sačekajte da se operacija završi.\\#1### @2@@@@@@@@@@@@@</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MatchingStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1109901106" translate="yes" xml:space="preserve">
+          <source>%1 payment lines out of %2 are applied.\\</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primenjeni su %1 redovi plaćanja od %2.\\</target>
+          <note from="Developer" annotates="general" priority="2">%1 number of lines that are applied, %2 total number of lines</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MatchSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 603749305" translate="yes" xml:space="preserve">
+          <source>There are %1 ledger entries that this statement line could be applied to with the same confidence.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Postoje %1 stavke knjige na koje je ovaj red izraza mogao da se primijeni sa istim samopouzdanjem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MultipleEntriesWithSilarConfidenceFoundTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 2091108686" translate="yes" xml:space="preserve">
+          <source>There are %1 alternative statement lines that could be applied to the same ledger entry with the same confidence.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Postoje redovi %1 alternativnih izraza koji mogu da se primijene na istu stavku knjige sa istim samopouzdanjem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MultipleStatementLinesWithSameConfidenceFoundTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 370200146" translate="yes" xml:space="preserve">
+          <source>You must choose an account to transfer the difference to.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Morate odabrati poslovni kontakt u koji biste prenijeli razliku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MustChooseAccountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 4201725954" translate="yes" xml:space="preserve">
+          <source>Notifies the user that payment reconciliation journals are not assigned to a number series.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obavještava korisnika da nalozi sravnjenja plaćanja nisu dodijeljeni brojčanoj seriji.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType PmtRecNoSeriesNotificationDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1270119281" translate="yes" xml:space="preserve">
+          <source>Payment reconciliation journals need a number series.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nalozi sravnjenja plaćanja su potrebni brojčanoj seriji.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType PmtRecNoSeriesNotificationNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 173894820" translate="yes" xml:space="preserve">
+          <source>Processed %1 out of %2 lines.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obrađeno %1 od %2 redova.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType ProcessedStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1549244863" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sačekajte da se operacija završi.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType ProgressBarMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1649821914" translate="yes" xml:space="preserve">
+          <source>The name of the related party is unique in your records.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime povezane strane je jedinstveno u vašim zapisima.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType RelatedPartyNameIsUniqueMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 3110879739" translate="yes" xml:space="preserve">
+          <source>%1 text mapper rules could be applied. They were overridden because a record with the %2 match confidence was found.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Moguće je primijeniti pravila mapiranja teksta za %1. One su zamijenjene zato što je pronađen zapis sa pouzdanošću %2 koje se podudara.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType TextMapperRulesOverridenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 3190040256" translate="yes" xml:space="preserve">
+          <source>%1 was matched with %2% accuracy.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1 je podudaran sa tačnošću %2%.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of the field, %2 is percent</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType TextPartialMatchMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 808524847" translate="yes" xml:space="preserve">
+          <source>Document No. %1 was not applied because the transaction amount was insufficient.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Br. dokumenta %1 nije primenjen jer je iznos transakcije nedovoljan.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType CannotApplyDocumentNoOneToManyApplicationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1992121385" translate="yes" xml:space="preserve">
+          <source>The application of statement lines to open ledger entries is in progress. Please wait while the operation is being completed.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aplikacija redova izvoda za otvaranje stavki knjige je u toku. Sačekajte da se operacija završi.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType CreatingAppliedEntriesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1748643167" translate="yes" xml:space="preserve">
+          <source>We matched the document number by using the payment reference.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podudarali smo se sa brojem dokumenta koristeći referencu na plaćanje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType DocumentNumberMatchedByPaymentReferenceMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 2872086875" translate="yes" xml:space="preserve">
+          <source>We found a match for the document number in the transaction text.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pronašli smo podudaranje za broj dokumenta u tekstu transakcije.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType DocumentNumberMatchedInTransactionTextMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 2764556336" translate="yes" xml:space="preserve">
+          <source>We found a match for the external document number in the transaction text.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pronašli smo podudaranje za broj eksternog dokumenta u tekstu transakcije.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType ExternalDocumentNumberMatchedInTransactionTextMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 243244968" translate="yes" xml:space="preserve">
+          <source>The value in the Transaction Amount field has been reduced by %1. A new line with %1 in the Transaction Amount field has been created.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vrijednost u polju Iznos transakcije je smanjena za %1. Novi red sa %1 u polju Iznos transakcije je kreiran.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - Difference</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType LineSplitTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1981476440" translate="yes" xml:space="preserve">
+          <source>The related party was matched based on the bank account in the statement file.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Povezana strana se podudara na osnovu bankovnog računa u datoteci izraza.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MatchedRelatedPartyOnBankAccountMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 4141172178" translate="yes" xml:space="preserve">
+          <source>The related party was matched based on the %1 in the statement file.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Srodni strana se podudarao na osnovu datoteke %1 u datoteci izraza.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of the fields used, e.g. Address, Name...</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MatchedRelatedPartyOnBankStatementInfoMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 745765755" translate="yes" xml:space="preserve">
+          <source>The matching of statement lines to open ledger entries is in progress.\\Please wait while the operation is being completed.\\#1####### @2@@@@@@@@@@@@@</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podudaranje redova izraza za otvaranje stavki knjige je u toku.\\Sačekajte da se operacija završi.\\#1### @2@@@@@@@@@@@@@</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MatchingStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1109901106" translate="yes" xml:space="preserve">
+          <source>%1 payment lines out of %2 are applied.\\</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primenjeni su %1 redovi plaćanja od %2.\\</target>
+          <note from="Developer" annotates="general" priority="2">%1 number of lines that are applied, %2 total number of lines</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MatchSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 603749305" translate="yes" xml:space="preserve">
+          <source>There are %1 ledger entries that this statement line could be applied to with the same confidence.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Postoje %1 stavke knjige na koje je ovaj red izraza mogao da se primijeni sa istim samopouzdanjem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MultipleEntriesWithSilarConfidenceFoundTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 2091108686" translate="yes" xml:space="preserve">
+          <source>There are %1 alternative statement lines that could be applied to the same ledger entry with the same confidence.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Postoje redovi %1 alternativnih izraza koji mogu da se primijene na istu stavku knjige sa istim samopouzdanjem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MultipleStatementLinesWithSameConfidenceFoundTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 370200146" translate="yes" xml:space="preserve">
+          <source>You must choose an account to transfer the difference to.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Morate odabrati poslovni kontakt u koji biste prenijeli razliku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MustChooseAccountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 4201725954" translate="yes" xml:space="preserve">
+          <source>Notifies the user that payment reconciliation journals are not assigned to a number series.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obavještava korisnika da nalozi sravnjanja plaćanja nisu dodijeljeni brojčanoj seriji.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType PmtRecNoSeriesNotificationDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1270119281" translate="yes" xml:space="preserve">
+          <source>Payment reconciliation journals need a number series.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nalozi sravnjanja plaćanja su potrebni brojčanoj seriji.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType PmtRecNoSeriesNotificationNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 173894820" translate="yes" xml:space="preserve">
+          <source>Processed %1 out of %2 lines.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obrađeno %1 od %2 redova.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType ProcessedStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1549244863" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sačekajte da se operacija završi.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType ProgressBarMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1649821914" translate="yes" xml:space="preserve">
+          <source>The name of the related party is unique in your records.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime povezanog učesnika je jedinstveno u vašim zapisima.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType RelatedPartyNameIsUniqueMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 3110879739" translate="yes" xml:space="preserve">
+          <source>%1 text mapper rules could be applied. They were overridden because a record with the %2 match confidence was found.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Moguće je primijeniti pravila mapiranja teksta za %1. One su zamijenjene zato što je pronađen zapis sa pouzdanošću %2 koje se podudara.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType TextMapperRulesOverridenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 3190040256" translate="yes" xml:space="preserve">
+          <source>%1 was matched with %2% accuracy.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1 je podudaran sa tačnošću %2%.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of the field, %2 is percent</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType TextPartialMatchMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Show</source>
+          <note from="Developer" annotates="general" priority="2">Novo,Proces,Report,Prikaz</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Payment Application</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aplikacija za plaćanje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 1256249423" translate="yes" xml:space="preserve">
+          <source>Accepted</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prihvaćeno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType AcceptedStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 1289641952" translate="yes" xml:space="preserve">
+          <source>Applied Automatically - Match Confidence: %1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Automatski primijenjeno - Podudaranje: %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType AppliedAutomaticallyStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 2767712498" translate="yes" xml:space="preserve">
+          <source>Applied Manually</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ručno primijenjeno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType AppliedManuallyStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 90541444" translate="yes" xml:space="preserve">
+          <source>The remaining amount to apply is %1.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preostali iznos za primjenu je %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the amount that is not applied (there is filed on the page named Remaining Amount To Apply)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType ExcessiveAmountErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 2426045121" translate="yes" xml:space="preserve">
+          <source>Not Applied</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nije primijenjeno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType NoApplicationStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 1258677779" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to remove all applications?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Želite li zaista da uklonite sve aplikacije?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType RemoveApplicationsQst</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2063702717 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the sum of the values in the Applied Amount field on lines in the Payment Application window.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje zbir Vrijednosti u polju Primenjeni iznos u redovima u prozoru aplikacije za plaćanje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TotalAppliedAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2063702717 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Applied Amount</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primenjeni iznos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TotalAppliedAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3375312438 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies how much of the payment amount remains to be applied to open entries in the Payment Application window.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje koliko je ostalo da se dio iznosa plaćanja primijeni za otvaranje stavki u prozoru aplikacije za plaćanje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TotalRemainingAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3375312438 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Razlika</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TotalRemainingAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3993354266 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Open Entries</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvori stavke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Open Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2241211591 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Open Entries</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvori stavke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Control28 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1622979514 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the account number the payment application will be posted to when you post the payment reconciliation journal.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje broj poslovnog kontakta u koji će aplikacija plaćanja biti objavljena kada proknjižite nalog sravnjanja plaćanja.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3699788827 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the type of account that the payment application will be posted to when you post the payment reconciliation journal.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje tip poslovnog kontakta na koji će aplikacija plaćanja biti objavljena kada proknjižite nalog smirivanja plaćanja.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Account Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 422618514 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the account that the payment is applied to in the Payment Reconciliation Journal window.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje ime poslovnog kontakta na koji se primenjuje plaćanje u prozoru Naloga smirivanja plaćanja.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control AccountName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 422618514 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Ime poslovnog kontakta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control AccountName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 508884519 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies that the payment specified on the header of the Payment Application window is applied to the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje da je plaćanje navedeno u zaglavlju prozora aplikacije za plaćanje primijenjeno na otvorenu stavku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Applied - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3176362867 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount, excluding the value in the Applied Pmt. Discount field, that is applied to the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje iznos plaćanja, izuzimaći Vrijednost u polju Primenjeni pmt. popust, koji je primenjen na otvorenu stavku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control AppliedAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3176362867 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Applied Amount</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primenjeni iznos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control AppliedAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 4001883873 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the customer or vendor ledger entry that the payment will be applied to when you post the payment reconciliation journal line.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje broj stavke knjige klijenata ili dobavljača na koju će se plaćanje primijeniti kada proknjižite red naloga smirivanja plaćanja.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Applies-to Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 4198939294 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the currency code of the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje šifru valute otvorene stavke.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 4198939294 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Entry Currency Code</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Šifra valute stavke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3461834954 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje opis otvorene stavke.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 486908828 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the document that is related to the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje broj dokumenta koji je povezan sa otvorenom stavkom.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2363328873 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the type of document that is related to the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje tip dokumenta koji je povezan sa otvorenom stavkom.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 4085727052 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the due date of the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje krajnji rok za otvorenu stavku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1527563463 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies a document number that refers to the customer's or vendor's numbering system.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Određuje broj dokumenta koji upućuje na sistem numerisanje klijenta ili dobavljača.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control External Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2492082913 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the quality of the match between the payment and the open entry for payment application purposes.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje kvalitet podudaranja između plaćanja i otvorene stavke za potrebe aplikacije plaćanja.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Match Confidence - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 975758320 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which the remaining amount on the open entry must be paid to grant a discount.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje datum kada preostali iznos za otvorenu stavku mora da se plati da bi se odobrio popust.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Pmt. Disc. Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 975758320 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Pmt. Discount Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum pmt. popusta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Pmt. Disc. Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3192789907 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the latest date the amount in the entry must be paid in order for payment discount tolerance to be granted.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje poslednji datum da iznos u stavki mora da se plati da bi se tolerancija kasaskonta odobrila.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Pmt. Disc. Tolerance Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3710982960 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje datum knjiženja otvorene stavke.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2975378708 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the amount that remains to be paid for the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje iznos koji treba da bude plaćen za otvoreni unos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Remaining Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2561395211 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the amount that remains to be paid for the open entry, minus any granted payment discount.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje iznos koji treba da se plati za otvorenu stavku, minus svakog dodeljenog kasaskonta.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Remaining Amt. Incl. Discount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1639344207 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies how much discount you can grant for the payment if you apply it to the open entry.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje koliko popusta možete da odobrite za plaćanje ako ga primijenite na otvorenu stavku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Remaining Pmt. Disc. Possible - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1639344207 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Remaining Pmt. Discount Possible</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preostali pmt popust je moguć</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Remaining Pmt. Disc. Possible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2107860880 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the amount that remains to be paid for the open entry after you have posted the payment in the Payment Reconciliation Journal window.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje iznos koji treba da se plati za otvorenu stavku nakon što ste proknjižili plaćanje u prozoru "Dnevnik sravnjanja plaćanja".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control RemainingAmountAfterPosting - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2107860880 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Remaining Amount After Posting</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preostali iznos posle knjiženja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control RemainingAmountAfterPosting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 593145866 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Payment Information</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Informacije o plaćanju</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control PaymentInformation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3773587942 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the text that was entered on the payment when the payment was made to the electronic bank account.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje tekst koji je unet prilikom plaćanja kada je plaćanje uplaćeno na elektronski bankovni nalog.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control BankAccReconLineDescription - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3773587942 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Transaction Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tekst transakcije</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control BankAccReconLineDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3840466586 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the application status of the payment, including information about the match confidence of payments that are applied automatically.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje status aplikacije za plaćanje, uključujući informacije o podudaranju sa plaćanjima koja se automatski primenjuju.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control PaymentStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3840466586 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Payment Status</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Status plaćanja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control PaymentStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2364353460 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount that was recorded on the electronic bank account.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje iznos plaćanja koji je zabeležen na elektronskom bankovnom nalogu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TransactionAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2364353460 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Transaction Amount</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iznos transakcije</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TransactionAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1117537388 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the payment was recorded in the bank account.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje datum kada je plaćanje zapisano na bankovnom nalogu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TransactionDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1117537388 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Transaction Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum transakcije</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TransactionDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 318613646 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Detalje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 979106973 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>View the bank statement details for the selected line. The details include the values that exist in an imported bank statement file.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pogledajte detalje izvoda u banci za izabrani red. Detalji sadrže Vrijednosti koje postoje u uvezenoj datoteci izvoda iz banke.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action ShowBankTransactionDetails - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 979106973 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Bank Transaction Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Detalji transakcije u banci</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action ShowBankTransactionDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 156978454 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Review</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pregledajte</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Review - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 467812692 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Accept a payment application after reviewing it or manually applying it to entries. This closes the payment application and sets the Match Confidence to Accepted.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prihvatite aplikaciju za plaćanje nakon pregleda ili ručnog primijene na stavke. Ovim se zatvara aplikacija za plaćanje i postavlja Vrijednost "Pouzdano podudaranje" na "Prihvaćeno".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Accept - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 467812692 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Accept Applications</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prihvati aplikacije</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Accept - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 113888489 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Remove a payment application from an entry. This unapplies the payment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uklonite aplikaciju za plaćanje iz stavke. Ovo ne primenjuje plaćanje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Reject - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 113888489 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Remove Applications</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ukloni aplikacije</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Reject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 366713437 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pokaћi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Show - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1506856312 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>View all open bank entries that the payment can be applied to.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikažite sve otvorene stavke banaka na koje plaćanje može da se primijeni.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenBankTransactions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1506856312 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>All Open Bank Transactions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sve otvorene transakcije u bankama</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenBankTransactions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 996986057 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Show all open entries that the payment can be applied to.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži sve otvorene stavke na koje plaćanje može da se primijeni.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 996986057 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>All Open Entries</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sve otvorene stavke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 2197320944 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Show all open checks that the payment can be applied to.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži sve otvorene provere na koje plaćanje može da se primijeni.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenPayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 2197320944 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>All Open Payments</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sva otvorena plaćanja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenPayments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 806207905 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>View the ledger entries that have been applied to this record.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikažite stavke knjige koje su primenjene na ovaj zapis.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AppliedEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 806207905 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Applied Entries</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primenjene stavke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AppliedEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 222649 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Show only open entries that are specifically for the related party in the Account No. field. This limits the list to those open entries that are most likely to relate to the payment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži samo otvorene stavke koje su specifične za povezanog izvođaca u polju Br. poslovnog kontakta. Ovo ograničava listu na one otvorene stavke koje će se najverovatnije povezati sa plaćanjem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action RelatedPartyOpenEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 222649 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Related-Party Open Entries</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvorene stavke srodnih strana</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action RelatedPartyOpenEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1008234807 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Sort the list based on the probability that it is a match.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortirajte listu na osnovu verovatnoće da se podudara.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action SortEntriesBasedOnProbability - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1008234807 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Suggest Entries</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Predloži stavke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action SortEntriesBasedOnProbability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1587086413 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pokaћi</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Category_Category4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 3383493608 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Proces</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Category_Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 2234406979 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Izveštaj</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Category_Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Related Party Name Mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapiranje imena srodnog stranaka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 61426844 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Br. poslovnog kontakta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Account No._VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 61426844 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Br. poslovnog kontakta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 170232457 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Account type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tip poslovnog kontakta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Account type_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 170232457 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Account type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tip poslovnog kontakta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Account type_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 1547790770 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Bank account No.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Br. bankovnog računa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Bank account No._VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 1547790770 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Bank account No.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Br. bankovnog računa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Bank account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 30571519 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Related-Party Name</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Naziv povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Related-Party Name_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 30571519 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Related-Party Name</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Naziv povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Related-Party Name_VSL - Property Caption</note>
+        </trans-unit>
+         <trans-unit id="PageExtension 1365250781 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>New,Process,Report,Manual Application,Review,Details,Show,Page,Posting,Line,Local application</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Novo,Proces,Report,Ručna primjena,Pregled,Detalji,Prikaz,Stranica,knjiženje,Red,Lokalna aplikacija</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 2842349164" translate="yes" xml:space="preserve">
+          <source>There is nothing for mapping. Please check the correct line.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nema ničeg za mapiranje. Provjerite ispravan red.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType NotSuccessfullyMap</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 3514702903" translate="yes" xml:space="preserve">
+          <source>Overwriting previous applications will not affect Accepted and Manual ones.\\Chose Yes to overwrite, or No to apply only new entries.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zamena prethodnih aplikacija neće uticati na one prihvaćene i ručno.\\Odabrano "Da" zamena ili "Ne" da biste primijenili samo nove stavke.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType OverwriteExistingMatchesTxt</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 4058639591" translate="yes" xml:space="preserve">
+          <source>Successfully map Related-Party Name with Customer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uspešno mapiranje Naziva povezane strane sa kupcem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType SuccessfullyMap</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 114327955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Local Application</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lokalna aplikacija</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action LocalApplication_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 883989350 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Map Related-Party Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapiraj Naziv povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ApplyAccountNo_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 883989350 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Map Related-Party Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapiraj Naziv povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ApplyAccountNo_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 1926670797 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Apply all cust/vend/bank</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poveži sve kupce/dobavljača/banke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ApplyAll_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 1926670797 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Apply all cust/vend/bank</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poveži sve kupce/dobavljača/banke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ApplyAll_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 3957510474 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Match payment application (Shift+F1)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poveži sa stavkama (Shift+F1)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action MatchConfManually_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 3957510474 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Match payment application (Shift+F1)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poveži sa stavkama (Shift+F1)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action MatchConfManually_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 3503101848 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Related-Party Name Mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvori Mapiranja naziva povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action RelatedPartyNameMapping_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 3503101848 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Related-Party Name Mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvori Mapiranja naziva povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action RelatedPartyNameMapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 803178574 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Select all lines for mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izaberite sve redove za mapiranje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action SelectAllForRelPartyNameMap_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 803178574 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Select all lines for mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izaberite sve redove za mapiranje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action SelectAllForRelPartyNameMap_VSL - Property Caption</note>
+        </trans-unit>
+         <trans-unit id="PageExtension 1365250781 - Action 1982098000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Show applied lines without document level</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži primijenjene linije bez nivoa dokumenta</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ShowDocumentLevel_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 1982098000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Show applied lines without document level</source>
+          <note from="Developer" annotates="general" priority="2">Prikaži primijenjene linije bez nivoa dokumenta</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ShowDocumentLevel_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Control 2324763972 - Property 1295455071" translate="yes" xml:space="preserve">
+          <source>Add to mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaj u mapiranje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Control Add to mapping_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Control 2324763972 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Add to mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaj u mapiranje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Control Add to mapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2744791844 - Field 2324763972 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Add to mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaj u mapiranje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BankAccReccLine_VSL - Field Add to mapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2744791844 - Field 777903091 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Match Confidence</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podudaranje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BankAccReccLine_VSL - Field Match Confidence_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2744791844 - Field 777903091 - Property 62802879" translate="yes" xml:space="preserve">
+          <source>None,Low,Medium,High,High - Text-to-Account Mapping,Manual,Accepted,Related-party Name Mapping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ništa,Nisko,Srednje,Visoko,Visoko - mapiranje teksta u poslovni kontakt,Ručno,Prihvaćeno,Mapiranje naziva povezane strane</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BankAccReccLine_VSL - Field Match Confidence_VSL - Property OptionCaption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

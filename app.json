@@ -1,0 +1,39 @@
+{
+  "id": "54b02ad4-f8e3-4912-97c5-e451f362951b",
+  "name": "ApplyPayments",
+  "publisher": "VSL",
+  "version": "1.0.0.2023112102",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "a5ffbad0-8fe0-4d1c-a1b3-535779f6eb91",
+      "name": "MNE_STANDARDS_VSL",
+      "version": "1.0.0.2023083001",
+      "publisher": "VSL"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 71357860,
+      "to": 71357899
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "9.0",
+  "features": [
+    "TranslationFile"
+  ]
+}

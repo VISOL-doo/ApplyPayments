@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="ApplyPayments">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3503101848 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related-Party Name Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 61426844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 170232457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Account type_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 1547790770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Bank account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 30571519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related-Party Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Related-Party Name_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3503101848 - Field 3954601712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table RelatedPartyNameMapping_VSL - Field Statement No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 1282992999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This notification is used when the Payment Application page is opening slowly. It can be used to turn off automatic suggestions, which will help the page open more quickly.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DisableAutomaticSuggestionsNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 3450555774" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorting the list based on the match probability is causing this page to open slowly. For faster performance, you can turn off autosuggestions, and then use the Suggest Entries action on the Payment Application page instead.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DisableAutomaticSuggestionsNotificationMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 2689165936" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Reconciliation - Disable Automatic Suggestions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DisableAutomaticSuggestionsNotificationNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 322882978" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Turn Off Automatic Suggestions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DisableAutomaticSuggestionsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1788469122 - NamedType 450345902" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do not show again</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GetBankStmt.LineCandidates_VSL - NamedType DontShowAgainTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 808524847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No. %1 was not applied because the transaction amount was insufficient.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType CannotApplyDocumentNoOneToManyApplicationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1992121385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The application of statement lines to open ledger entries is in progress. Please wait while the operation is being completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType CreatingAppliedEntriesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1748643167" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We matched the document number by using the payment reference.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType DocumentNumberMatchedByPaymentReferenceMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 2872086875" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We found a match for the document number in the transaction text.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType DocumentNumberMatchedInTransactionTextMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 2764556336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We found a match for the external document number in the transaction text.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType ExternalDocumentNumberMatchedInTransactionTextMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 243244968" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The value in the Transaction Amount field has been reduced by %1. A new line with %1 in the Transaction Amount field has been created.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Difference</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType LineSplitTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1981476440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The related party was matched based on the bank account in the statement file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MatchedRelatedPartyOnBankAccountMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 4141172178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The related party was matched based on the %1 in the statement file.</source>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of the fields used, e.g. Address, Name...</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MatchedRelatedPartyOnBankStatementInfoMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 745765755" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The matching of statement lines to open ledger entries is in progress.\\Please wait while the operation is being completed.\\#1####### @2@@@@@@@@@@@@@</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MatchingStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1109901106" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines out of %2 are applied.\\</source>
+          <note from="Developer" annotates="general" priority="2">%1 number of lines that are applied, %2 total number of lines</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MatchSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 603749305" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are %1 ledger entries that this statement line could be applied to with the same confidence.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MultipleEntriesWithSilarConfidenceFoundTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 2091108686" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are %1 alternative statement lines that could be applied to the same ledger entry with the same confidence.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MultipleStatementLinesWithSameConfidenceFoundTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 370200146" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must choose an account to transfer the difference to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType MustChooseAccountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 4201725954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notifies the user that payment reconciliation journals are not assigned to a number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType PmtRecNoSeriesNotificationDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1270119281" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment reconciliation journals need a number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType PmtRecNoSeriesNotificationNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 173894820" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed %1 out of %2 lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType ProcessedStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1549244863" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType ProgressBarMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 1649821914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The name of the related party is unique in your records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType RelatedPartyNameIsUniqueMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 3110879739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 text mapper rules could be applied. They were overridden because a record with the %2 match confidence was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType TextMapperRulesOverridenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1737977537 - NamedType 3190040256" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 was matched with %2% accuracy.</source>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of the field, %2 is percent</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPayApply_VSL - NamedType TextPartialMatchMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 808524847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No. %1 was not applied because the transaction amount was insufficient.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType CannotApplyDocumentNoOneToManyApplicationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1992121385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The application of statement lines to open ledger entries is in progress. Please wait while the operation is being completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType CreatingAppliedEntriesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1748643167" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We matched the document number by using the payment reference.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType DocumentNumberMatchedByPaymentReferenceMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 2872086875" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We found a match for the document number in the transaction text.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType DocumentNumberMatchedInTransactionTextMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 2764556336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We found a match for the external document number in the transaction text.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType ExternalDocumentNumberMatchedInTransactionTextMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 243244968" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The value in the Transaction Amount field has been reduced by %1. A new line with %1 in the Transaction Amount field has been created.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Difference</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType LineSplitTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1981476440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The related party was matched based on the bank account in the statement file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MatchedRelatedPartyOnBankAccountMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 4141172178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The related party was matched based on the %1 in the statement file.</source>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of the fields used, e.g. Address, Name...</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MatchedRelatedPartyOnBankStatementInfoMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 745765755" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The matching of statement lines to open ledger entries is in progress.\\Please wait while the operation is being completed.\\#1####### @2@@@@@@@@@@@@@</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MatchingStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1109901106" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines out of %2 are applied.\\</source>
+          <note from="Developer" annotates="general" priority="2">%1 number of lines that are applied, %2 total number of lines</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MatchSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 603749305" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are %1 ledger entries that this statement line could be applied to with the same confidence.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MultipleEntriesWithSilarConfidenceFoundTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 2091108686" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are %1 alternative statement lines that could be applied to the same ledger entry with the same confidence.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MultipleStatementLinesWithSameConfidenceFoundTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 370200146" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must choose an account to transfer the difference to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType MustChooseAccountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 4201725954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notifies the user that payment reconciliation journals are not assigned to a number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType PmtRecNoSeriesNotificationDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1270119281" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment reconciliation journals need a number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType PmtRecNoSeriesNotificationNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 173894820" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed %1 out of %2 lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType ProcessedStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1549244863" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType ProgressBarMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 1649821914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The name of the related party is unique in your records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType RelatedPartyNameIsUniqueMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 3110879739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 text mapper rules could be applied. They were overridden because a record with the %2 match confidence was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType TextMapperRulesOverridenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 73893189 - NamedType 3190040256" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 was matched with %2% accuracy.</source>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of the field, %2 is percent</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MatchBankPay_VSL - NamedType TextPartialMatchMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3648355243 - NamedType 3715409167" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related entries not found. To unapply and reverse payments you must do it manually.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ReversePaymentJo_VSL - NamedType CantFindRelatedEntriesErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3648355243 - NamedType 1412769711" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry %1 cannot be reversed because its "Transaction No." is not defined.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - The Entry No. of the transaction that cannot be reversed</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ReversePaymentJo_VSL - NamedType EmptyTransactionNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3648355243 - NamedType 732876604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This payment reconciliation journal has already been reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ReversePaymentJo_VSL - NamedType PaymentRecJournalAlreadyReversedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3648355243 - NamedType 1605223759" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must select a journal to reverse.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ReversePaymentJo_VSL - NamedType PostedPaymentReconciliationNotSelectedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Show</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Application</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 1256249423" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accepted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType AcceptedStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 1289641952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Automatically - Match Confidence: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType AppliedAutomaticallyStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 2767712498" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Manually</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType AppliedManuallyStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 90541444" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The remaining amount to apply is %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 is the amount that is not applied (there is filed on the page named Remaining Amount To Apply)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType ExcessiveAmountErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 2426045121" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Applied</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType NoApplicationStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - NamedType 1258677779" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to remove all applications?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - NamedType RemoveApplicationsQst</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2063702717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sum of the values in the Applied Amount field on lines in the Payment Application window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TotalAppliedAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2063702717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TotalAppliedAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3375312438 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how much of the payment amount remains to be applied to open entries in the Payment Application window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TotalRemainingAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3375312438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TotalRemainingAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3993354266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Open Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2241211591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Control28 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1622979514 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account number the payment application will be posted to when you post the payment reconciliation journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3699788827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of account that the payment application will be posted to when you post the payment reconciliation journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Account Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 422618514 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the account that the payment is applied to in the Payment Reconciliation Journal window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control AccountName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 422618514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control AccountName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 508884519 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the payment specified on the header of the Payment Application window is applied to the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Applied - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3176362867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount, excluding the value in the Applied Pmt. Discount field, that is applied to the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control AppliedAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3176362867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control AppliedAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 4001883873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the customer or vendor ledger entry that the payment will be applied to when you post the payment reconciliation journal line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Applies-to Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the currency code of the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the document that is related to the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of document that is related to the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 4085727052 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the due date of the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1527563463 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a document number that refers to the customer's or vendor's numbering system.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control External Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2492082913 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quality of the match between the payment and the open entry for payment application purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Match Confidence - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2744877025 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Payment reference_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 975758320 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which the remaining amount on the open entry must be paid to grant a discount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Pmt. Disc. Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 975758320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pmt. Discount Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Pmt. Disc. Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3192789907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the latest date the amount in the entry must be paid in order for payment discount tolerance to be granted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Pmt. Disc. Tolerance Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2975378708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount that remains to be paid for the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Remaining Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2561395211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount that remains to be paid for the open entry, minus any granted payment discount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Remaining Amt. Incl. Discount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1639344207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how much discount you can grant for the payment if you apply it to the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Remaining Pmt. Disc. Possible - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1639344207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Pmt. Discount Possible</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Remaining Pmt. Disc. Possible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2107860880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount that remains to be paid for the open entry after you have posted the payment in the Payment Reconciliation Journal window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control RemainingAmountAfterPosting - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2107860880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount After Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control RemainingAmountAfterPosting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2860522428 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control Ship to name_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 593145866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control PaymentInformation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3773587942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the text that was entered on the payment when the payment was made to the electronic bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control BankAccReconLineDescription - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3773587942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control BankAccReconLineDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3840466586 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the application status of the payment, including information about the match confidence of payments that are applied automatically.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control PaymentStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 3840466586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control PaymentStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2364353460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount that was recorded on the electronic bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TransactionAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 2364353460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TransactionAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1117537388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the payment was recorded in the bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TransactionDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Control 1117537388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Control TransactionDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 979106973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the bank statement details for the selected line. The details include the values that exist in an imported bank statement file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action ShowBankTransactionDetails - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 979106973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Transaction Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action ShowBankTransactionDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 156978454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Review</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Review - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 467812692 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accept a payment application after reviewing it or manually applying it to entries. This closes the payment application and sets the Match Confidence to Accepted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Accept - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 467812692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accept Applications</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Accept - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 113888489 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove a payment application from an entry. This unapplies the payment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Reject - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 113888489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove Applications</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Reject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 366713437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action Show - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1506856312 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View all open bank entries that the payment can be applied to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenBankTransactions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1506856312 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Open Bank Transactions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenBankTransactions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 996986057 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show all open entries that the payment can be applied to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 996986057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Open Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 2197320944 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show all open checks that the payment can be applied to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenPayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 2197320944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Open Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AllOpenPayments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 806207905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the ledger entries that have been applied to this record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AppliedEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 806207905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action AppliedEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 222649 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show only open entries that are specifically for the related party in the Account No. field. This limits the list to those open entries that are most likely to relate to the payment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action RelatedPartyOpenEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 222649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related-Party Open Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action RelatedPartyOpenEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1008234807 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sort the list based on the probability that it is a match.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action SortEntriesBasedOnProbability - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763989602 - Action 1008234807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PaymentApplication_VSL - Action SortEntriesBasedOnProbability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Party Name Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 61426844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Account No._VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 61426844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 170232457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Account type_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 170232457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Account type_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 1547790770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Bank account No._VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 1547790770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Bank account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 30571519 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related-Party Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Related-Party Name_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503101848 - Control 30571519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related-Party Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RelatedPartyNameMapping_VSL - Control Related-Party Name_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4252988182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Subclass</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ChangeSubclass_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4252988182 - NamedType 1603347576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are nothing to change</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ChangeSubclass_VSL - NamedType Text000Msg</note>
+        </trans-unit>
+        <trans-unit id="Report 4252988182 - Control 1112990111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Subclass</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ChangeSubclass_VSL - Control ChangeSubclassFields - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4252988182 - Control 709989264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Subclass</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ChangeSubclass_VSL - Control ChangeSubclass - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4252988182 - Control 709989264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Subclass</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ChangeSubclass_VSL - Control ChangeSubclass - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4252988182 - Control 925954655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Subclass Accept</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ChangeSubclass_VSL - Control ChangeSubclassFieldsAccept - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4252988182 - Control 4252988182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Subclass</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ChangeSubclass_VSL - Control ChangeSubclass_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4252988182 - Control 4252988182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Subclass</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ChangeSubclass_VSL - Control ChangeSubclass_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 829364147 - Action 1869020535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Update Subclass</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FAss_VSL - Action UpdateSubclass_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 829364147 - Action 1869020535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Update Subclass</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FAss_VSL - Action UpdateSubclass_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>New,Process,Report,Manual Application,Review,Details,Show,Page,Posting,Line,Local Application</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 2616921444" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1365250781">
+          <source>The matching of statement lines to open ledger entries is in progress.\\Please wait while the operation is being completed.\\#1####### @2@@@@@@@@@@@@@</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType MatchingStLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 745765755" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1365250781">
+          <source>Please wait while the operation is being completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType MatchingStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 2842349164" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1365250781">
+          <source>There is nothing for mapping. Please check the correct line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType NotSuccessfullyMap</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 3514702903" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1365250781">
+          <source>Overwriting previous applications will not affect Accepted and Manual ones.\\Chose Yes to overwrite, or No to apply only new entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType OverwriteExistingMatchesTxt</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 173894820" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1365250781">
+          <source>Processed %1 out of %2 lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType ProcessedStmtLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - NamedType 4058639591" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1365250781">
+          <source>Successfully map Related-Party Name with Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - NamedType SuccessfullyMap</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 114327955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Local Application</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action LocalApplication_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 883989350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Map Related-Party Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ApplyAccountNo_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 883989350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Map Related-Party Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ApplyAccountNo_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 1926670797 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Apply all cust/vend/bank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ApplyAll_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 1926670797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Apply all cust/vend/bank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ApplyAll_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 3957510474 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Match payment application (Shift+F1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action MatchConfManually_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 3957510474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Match payment application (Shift+F1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action MatchConfManually_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 3503101848 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Related-Party Name Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action RelatedPartyNameMapping_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 3503101848 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Related-Party Name Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action RelatedPartyNameMapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 803178574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Select all lines for mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action SelectAllForRelPartyNameMap_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 803178574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Select all lines for mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action SelectAllForRelPartyNameMap_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 1982098000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Show applied lines without document level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ShowDocumentLevel_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Action 1982098000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Show applied lines without document level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Action ShowDocumentLevel_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Control 2324763972 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Add to mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Control Add to mapping_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1365250781 - Control 2324763972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Add to mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PayRecJournal_VSL - Control Add to mapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3172210205 - Action 2105397842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1447786929">
+          <source>Undo the bank statement, unapply, and reverse the entries created by this journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PostedPayRec_VSL - Action Reverse_VSL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3172210205 - Action 2105397842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1447786929">
+          <source>Reverse Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PostedPayRec_VSL - Action Reverse_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2744791844 - Field 61426844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2110786292">
+          <source>Loacal Acount No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BankAccReccLine_VSL - Field Account No._VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2744791844 - Field 2324763972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2110786292">
+          <source>Add to mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BankAccReccLine_VSL - Field Add to mapping_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2744791844 - Field 777903091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2110786292">
+          <source>Match Confidence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BankAccReccLine_VSL - Field Match Confidence_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2744791844 - Field 777903091 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2110786292">
+          <source>None,Low,Medium,High,High - Text-to-Account Mapping,Manual,Accepted,Related-party Name Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BankAccReccLine_VSL - Field Match Confidence_VSL - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2175060372 - Field 2744877025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Payment reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PaymentProposal_VSL - Field Payment reference_VSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2175060372 - Field 2860522428 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Ship to name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PaymentProposal_VSL - Field Ship to name_VSL - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

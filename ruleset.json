@@ -1,0 +1,26 @@
+{
+    "name": "DATRYSRuleSet",
+    "description": "AL Ruleset for project DATRYS",
+    "rules": [
+        {
+            "id": "AS0051",
+            "action": "Hidden",
+            "justification": "app file properties for appsources"
+        },
+        {
+            "id": "AS0052",
+            "action": "Hidden",
+            "justification": "app file properties for appsources"
+        },
+        {
+            "id": "AA0214",
+            "action": "Hidden",
+            "justification": "current version warning bug"
+        },
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "Ignore ID Range Error"
+        }
+    ]
+}
